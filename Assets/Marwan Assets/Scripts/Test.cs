@@ -5,8 +5,7 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
 
-    bool omarFlag = true;
-
+    bool omarFlag = false;
     // Start is called before the first frame update
     void Start()
     {
