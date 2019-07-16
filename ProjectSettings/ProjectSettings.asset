@@ -277,9 +277,8 @@ PlayerSettings:
     m_Enabled: 0
     m_Devices: []
   - m_BuildTarget: Metro
-    m_Enabled: 1
-    m_Devices:
-    - WindowsMR
+    m_Enabled: 0
+    m_Devices: []
   - m_BuildTarget: PS4
     m_Enabled: 0
     m_Devices: []
