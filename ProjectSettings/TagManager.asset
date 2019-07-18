@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Arm
+  - Leg
+  - Torso
+  - Head
+  - ExcludeTeleport
+  - projectile
+  - FxTemporaire
+  - ComplexObject
+  - MK2_aix
+  - Mk2_Body
+  - Mk2_Head
+  - Mk2_Lever
+  - MK2_Pull_ring
+  - MK2_Safty_pin
   layers:
   - Default
   - TransparentFX
