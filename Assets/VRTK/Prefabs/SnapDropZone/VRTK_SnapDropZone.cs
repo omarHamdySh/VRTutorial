@@ -60,22 +60,31 @@ namespace VRTK
 
         [Tooltip("A game object that is used to draw the highlighted destination for within the drop zone. This object will also be created in the Editor for easy placement.")]
         public GameObject highlightObjectPrefab;
+
         [Tooltip("The Snap Type to apply when a valid interactable object is dropped within the snap zone.")]
         public SnapTypes snapType = SnapTypes.UseKinematic;
+
         [Tooltip("The amount of time it takes for the object being snapped to move into the new snapped position, rotation and scale.")]
         public float snapDuration = 0f;
+
         [Tooltip("If this is checked then the scaled size of the snap drop zone will be applied to the object that is snapped to it.")]
         public bool applyScalingOnSnap = false;
+
         [Tooltip("If this is checked then when the snapped object is unsnapped from the drop zone, a clone of the unsnapped object will be snapped back into the drop zone.")]
         public bool cloneNewOnUnsnap = false;
+
         [Tooltip("The colour to use when showing the snap zone is active. This is used as the highlight colour when no object is hovering but `Highlight Always Active` is true.")]
         public Color highlightColor = Color.clear;
+
         [Tooltip("The colour to use when showing the snap zone is active and a valid object is hovering. If this is `Color.clear` then the `Highlight Color` will be used.")]
         public Color validHighlightColor = Color.clear;
+
         [Tooltip("The highlight object will always be displayed when the snap drop zone is available even if a valid item isn't being hovered over.")]
         public bool highlightAlwaysActive = false;
+
         [Tooltip("A specified VRTK_PolicyList to use to determine which interactable objects will be snapped to the snap drop zone on release.")]
         public VRTK_PolicyList validObjectListPolicy;
+
         [Tooltip("If this is checked then the drop zone highlight section will be displayed in the scene editor window.")]
         public bool displayDropZoneInEditor = true;
 
@@ -545,6 +554,7 @@ namespace VRTK
         {
             if (isSnapped && (currentSnappedObject == null || !currentSnappedObject.gameObject.activeInHierarchy))
             {
+
                 ForceUnsnap();
                 OnObjectUnsnappedFromDropZone(SetSnapDropZoneEvent((currentSnappedObject != null ? currentSnappedObject.gameObject : null)));
             }
@@ -715,6 +725,15 @@ namespace VRTK
                     }
 
                     interactableObjectCheck.ToggleSnapDropZone(this, true);
+
+                    var snapOreder = interactableObjectCheck.gameObject.GetComponent<SnapOrder>();
+                    
+                    if (snapOreder!=null)
+                    {
+                        snapOreder.snapFlag = SnapOrderFlag.SNAPPED;
+                    }
+
+                    //Set this Interactable object Snap Order flag enum to snapped.
                 }
             }
 
@@ -807,6 +826,14 @@ namespace VRTK
             {
                 checkCanSnapRoutine = StartCoroutine(CheckCanSnapObjectAtEndOfFrame(checkCanSnapObject));
             }
+
+            //var snapOreder = currentSnappedObject.GetComponent<SnapOrder>();
+
+            //if (snapOreder != null)
+            //{
+            //    snapOreder.snapFlag = SnapOrderFlag.INTERACTABLE;
+            //}
+
             checkCanSnapObject = null;
         }
 
