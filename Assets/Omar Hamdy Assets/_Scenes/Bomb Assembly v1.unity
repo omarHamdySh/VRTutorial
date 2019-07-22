@@ -724,7 +724,6 @@ GameObject:
   - component: {fileID: 351219268}
   - component: {fileID: 351219267}
   - component: {fileID: 351219266}
-  - component: {fileID: 351219265}
   - component: {fileID: 351219264}
   m_Layer: 0
   m_Name: LefhtController
@@ -780,25 +779,6 @@ MonoBehaviour:
   maximumCursorScale: {x: Infinity, y: Infinity, z: Infinity}
   customTracer: {fileID: 0}
   customCursor: {fileID: 0}
---- !u!114 &351219265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351219262}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 947b27445602ed640b885db7e667dfc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabButton: 3
-  grabPrecognition: 0
-  throwMultiplier: 1
-  createRigidBodyWhenNotTouching: 0
-  controllerAttachPoint: {fileID: 0}
-  controllerEvents: {fileID: 0}
-  interactTouch: {fileID: 0}
 --- !u!114 &351219266
 MonoBehaviour:
   m_ObjectHideFlags: 0
