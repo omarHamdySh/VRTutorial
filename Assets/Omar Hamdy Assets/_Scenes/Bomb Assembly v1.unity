@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 27796837}
   - component: {fileID: 27796839}
   - component: {fileID: 27796838}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 118247093}
   - component: {fileID: 118247091}
   - component: {fileID: 118247097}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MK2_Pull_ring
   m_TagString: MK2_Pull_ring
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 145938058}
   - component: {fileID: 145938057}
   - component: {fileID: 145938059}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286624482}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1112,7 +1112,7 @@ GameObject:
   - component: {fileID: 479359269}
   - component: {fileID: 479359271}
   - component: {fileID: 479359270}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1189,7 +1189,7 @@ GameObject:
   - component: {fileID: 546733903}
   - component: {fileID: 546733905}
   - component: {fileID: 546733904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1302,7 +1302,7 @@ GameObject:
   - component: {fileID: 603279050}
   - component: {fileID: 603279048}
   - component: {fileID: 603279054}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Lever
   m_TagString: Mk2_Lever
   m_Icon: {fileID: 0}
@@ -2401,7 +2401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 697801661}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snap Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2431,7 +2431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 718435686}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snap Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2463,7 +2463,7 @@ GameObject:
   - component: {fileID: 720652168}
   - component: {fileID: 720652170}
   - component: {fileID: 720652169}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2538,7 +2538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 740259035}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snap Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3707,7 +3707,7 @@ GameObject:
   - component: {fileID: 786206650}
   - component: {fileID: 786206652}
   - component: {fileID: 786206651}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3790,7 +3790,7 @@ GameObject:
   - component: {fileID: 816857875}
   - component: {fileID: 816857873}
   - component: {fileID: 816857879}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Body
   m_TagString: Mk2_Body
   m_Icon: {fileID: 0}
@@ -4429,7 +4429,7 @@ GameObject:
   - component: {fileID: 845879705}
   - component: {fileID: 845879707}
   - component: {fileID: 845879706}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4504,7 +4504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 846144932}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4541,7 +4541,7 @@ GameObject:
   - component: {fileID: 935877001}
   - component: {fileID: 935877003}
   - component: {fileID: 935877002}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4680,7 +4680,7 @@ GameObject:
   - component: {fileID: 946344083}
   - component: {fileID: 946344082}
   - component: {fileID: 946344084}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4766,7 +4766,7 @@ GameObject:
   - component: {fileID: 1025123576}
   - component: {fileID: 1025123578}
   - component: {fileID: 1025123577}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4843,7 +4843,7 @@ GameObject:
   - component: {fileID: 1029739149}
   - component: {fileID: 1029739151}
   - component: {fileID: 1029739150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4919,7 +4919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073524164}
   - component: {fileID: 1073524163}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MK2_Grenade Snap Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5053,7 +5053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1162140653}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5086,7 +5086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1254300668}
   - component: {fileID: 1254300667}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MK2_Grenade Deassembled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5205,7 +5205,7 @@ GameObject:
   - component: {fileID: 1345163981}
   - component: {fileID: 1345163983}
   - component: {fileID: 1345163982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5280,7 +5280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1347731687}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: snapPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5438,7 +5438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1450167446}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5751,7 +5751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1585137352}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snap Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5784,7 +5784,7 @@ GameObject:
   - component: {fileID: 1612579622}
   - component: {fileID: 1612579621}
   - component: {fileID: 1612579623}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5903,7 +5903,7 @@ GameObject:
   - component: {fileID: 1638528385}
   - component: {fileID: 1638528384}
   - component: {fileID: 1638528386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MK2_Safty_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5988,7 +5988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1680267899}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snap Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6021,7 +6021,7 @@ GameObject:
   - component: {fileID: 1694200340}
   - component: {fileID: 1694200339}
   - component: {fileID: 1694200341}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Lever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6284,7 +6284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785019387}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6396,7 +6396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495091}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wrist_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6412,7 +6412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495105}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_thumb_1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6428,7 +6428,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_thumb_0_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6444,7 +6444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_thumb_r_aux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6460,7 +6460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_thumb_2_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6476,7 +6476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6492,7 +6492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_thumb_r_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6509,7 +6509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1807495117}
   - component: {fileID: 1802190547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vr_glove_right_slim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6526,7 +6526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1807495119}
   - component: {fileID: 1807463344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vr_glove_right_model_slim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6558,7 +6558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495121}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_pinky_r_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6574,7 +6574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_pinky_r_aux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6590,7 +6590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495125}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_ring_1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6606,7 +6606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495127}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_ring_0_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6622,7 +6622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495129}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_ring_meta_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6638,7 +6638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_ring_2_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6654,7 +6654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_ring_r_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6670,7 +6670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_ring_r_aux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6686,7 +6686,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495137}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_middle_meta_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6702,7 +6702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_middle_2_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6718,7 +6718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_middle_r_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6734,7 +6734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_middle_r_aux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6750,7 +6750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_pinky_1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6766,7 +6766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_pinky_0_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6782,7 +6782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495149}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_pinky_meta_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6798,7 +6798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_pinky_2_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6814,7 +6814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_index_1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6830,7 +6830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_index_0_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6846,7 +6846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495157}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_index_meta_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6862,7 +6862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_index_2_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6878,7 +6878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_index_r_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6894,7 +6894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_index_r_aux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6910,7 +6910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_middle_1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6926,7 +6926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807495167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: finger_middle_0_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7444,7 +7444,7 @@ GameObject:
   - component: {fileID: 1857545601}
   - component: {fileID: 1857545599}
   - component: {fileID: 1857545605}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_aix
   m_TagString: MK2_aix
   m_Icon: {fileID: 0}
@@ -7735,7 +7735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1905630926}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7819,7 +7819,7 @@ GameObject:
   - component: {fileID: 1924812158}
   - component: {fileID: 1924812160}
   - component: {fileID: 1924812159}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7896,7 +7896,7 @@ GameObject:
   - component: {fileID: 1996215712}
   - component: {fileID: 1996215714}
   - component: {fileID: 1996215713}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7974,7 +7974,7 @@ GameObject:
   - component: {fileID: 2026657185}
   - component: {fileID: 2026657184}
   - component: {fileID: 2026657182}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MK2_Safty_pin
   m_TagString: MK2_Safty_pin
   m_Icon: {fileID: 0}
@@ -8165,7 +8165,7 @@ GameObject:
   - component: {fileID: 2054072498}
   - component: {fileID: 2054072496}
   - component: {fileID: 2054072502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_Head
   m_TagString: Mk2_Head
   m_Icon: {fileID: 0}
@@ -8350,7 +8350,7 @@ GameObject:
   - component: {fileID: 2054200325}
   - component: {fileID: 2054200327}
   - component: {fileID: 2054200326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8428,7 +8428,7 @@ GameObject:
   - component: {fileID: 2073526270}
   - component: {fileID: 2073526269}
   - component: {fileID: 2073526271}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mk2_aix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8514,7 +8514,7 @@ GameObject:
   - component: {fileID: 2081801304}
   - component: {fileID: 2081801306}
   - component: {fileID: 2081801305}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8591,7 +8591,7 @@ GameObject:
   - component: {fileID: 2108649625}
   - component: {fileID: 2108649627}
   - component: {fileID: 2108649626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8669,7 +8669,7 @@ GameObject:
   - component: {fileID: 2145963160}
   - component: {fileID: 2145963159}
   - component: {fileID: 2145963161}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MK2_Pull_ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18284,8 +18284,7 @@ MonoBehaviour:
   cursorMatchTargetRotation: 0
   cursorDistanceRescale: 0
   maximumCursorScale: {x: Infinity, y: Infinity, z: Infinity}
-  customTracer: {fileID: 4397811390059365743, guid: 2b2e16d38c2e3ef4fbc70682da080257,
-    type: 3}
+  customTracer: {fileID: 0}
   customCursor: {fileID: 8818381750180742014, guid: 58f4331e6fb0c1d4da00e547cf520fc3,
     type: 3}
 --- !u!1 &5174145443176837416
@@ -18303,7 +18302,7 @@ GameObject:
   - component: {fileID: 5174145443176837413}
   - component: {fileID: 5174145443176837415}
   - component: {fileID: 5174145443176837411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Marwan_Pointer Selection Right Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
