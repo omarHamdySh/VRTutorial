@@ -65,7 +65,7 @@ public class SnapOrder : MonoBehaviour
 
             foreach (var snapAreaObj in snapZones)
             {
-                snapAreaObj.SetActive(true);
+                snapAreaObj.GetComponent<Collider>().enabled = true;
             }
             snapAreasState = MySnapAreas.TurnedOn;
         }
@@ -77,7 +77,7 @@ public class SnapOrder : MonoBehaviour
         {
             foreach (var snapAreaObj in snapZones)
             {
-                snapAreaObj.SetActive(false);
+                snapAreaObj.GetComponent<Collider>().enabled = false;
             }
             snapAreasState = MySnapAreas.TurnedOff;
         }

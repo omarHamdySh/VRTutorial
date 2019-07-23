@@ -145,7 +145,10 @@ namespace VRTK
             if (ObjectExitedSnapDropZone != null)
             {
                 ObjectExitedSnapDropZone(this, e);
+
+
             }
+
         }
 
         public virtual void OnObjectSnappedToDropZone(SnapDropZoneEventArgs e)
@@ -787,6 +790,12 @@ namespace VRTK
             {
                 ResetPermanentCloneColliders(currentSnappedObject.gameObject);
                 RemoveCurrentValidSnapObject(currentSnappedObject);
+                var snapOreder = currentSnappedObject.GetComponent<SnapOrder>();
+
+                if (snapOreder != null)
+                {
+                    snapOreder.snapFlag = SnapOrderFlag.INTERACTABLE;
+                }
             }
 
             isSnapped = false;

@@ -19,6 +19,8 @@ TagManager:
   - MK2_Pull_ring
   - MK2_Safty_pin
   - validlaser
+  - Mk2_Hammer
+  - Mk2_Spring
   layers:
   - Default
   - TransparentFX
