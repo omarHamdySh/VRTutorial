@@ -716,6 +716,13 @@ namespace VRTK
 
                     interactableObjectCheck.ToggleSnapDropZone(this, true);
                 }
+                var snapOreder = interactableObjectCheck.gameObject.GetComponent<SnapOrder>();
+
+                if (snapOreder != null)
+                {
+                    snapOreder.snapFlag = SnapOrderFlag.SNAPPED;
+                }
+
             }
 
             //Force reset isSnapped if the item is grabbed but isSnapped is still true
