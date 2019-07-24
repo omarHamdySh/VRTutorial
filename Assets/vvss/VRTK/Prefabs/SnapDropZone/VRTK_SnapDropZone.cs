@@ -723,7 +723,7 @@ namespace VRTK
 
                 if (snapOreder != null)
                 {
-                    snapOreder.snapFlag = SnapOrderFlag.SNAPPED;
+                    snapOreder.OnSnappingThis();
                 }
 
             }
@@ -794,7 +794,7 @@ namespace VRTK
 
                 if (snapOreder != null)
                 {
-                    snapOreder.snapFlag = SnapOrderFlag.INTERACTABLE;
+                    snapOreder.OnUnSnappingThis();
                 }
             }
 
