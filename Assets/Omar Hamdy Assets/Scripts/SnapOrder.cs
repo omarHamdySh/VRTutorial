@@ -89,7 +89,7 @@ public class SnapOrder : MonoBehaviour
         {
             snapFlag = SnapOrderFlag.SNAPPED;
             int thisSnapOrderIndex = snapOrderObjects.IndexOf(this);
-            if (thisSnapOrderIndex > 1)
+            if (snapOrderObjects[thisSnapOrderIndex - 1] != AssemblyBase)
             {
                 snapOrderObjects[thisSnapOrderIndex - 1].thisCollider.enabled = false;
             }
@@ -106,7 +106,7 @@ public class SnapOrder : MonoBehaviour
         {
             snapFlag = SnapOrderFlag.INTERACTABLE;
             int thisSnapOrderIndex = snapOrderObjects.IndexOf(this);
-            if (thisSnapOrderIndex > 1)
+            if (snapOrderObjects[thisSnapOrderIndex - 1] != AssemblyBase)
             {
                 snapOrderObjects[thisSnapOrderIndex - 1].thisCollider.enabled = true;
             }
