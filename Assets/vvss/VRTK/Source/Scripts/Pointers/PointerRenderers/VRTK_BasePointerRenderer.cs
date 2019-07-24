@@ -100,7 +100,7 @@ namespace VRTK
 
         protected bool tracerVisible;
         protected bool cursorVisible;
-        protected LayerMask defaultIgnoreLayer = Physics.IgnoreRaycastLayer;
+        protected LayerMask defaultIgnoreLayer = ((1 << 2) | (1<<9)); //Physics.IgnoreRaycastLayer;
 
         protected SDK_BaseController.ControllerHand cachedAttachedHand = SDK_BaseController.ControllerHand.None;
         protected Transform cachedPointerAttachPoint = null;
