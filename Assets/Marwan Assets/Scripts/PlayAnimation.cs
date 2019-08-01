@@ -14,14 +14,32 @@ public class PlayAnimation : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    public void Play_animator()
+    public void Play_Animator_Assembly()
     {
-        Debug.Log("play animation for motor");
+        if (isplay)
+        {
+            showInforamtionObject.SetActive(false);
+            print("conditation if");
+            anim.enabled = true;
+            anim.Play("Grenadeassembely");
+            anim.SetTrigger("x");
+        }
+        else
+        {
+            anim.Play("TESTANIM");
+            anim.enabled = true;
+        }
+
+        isplay = !isplay;
+    }
+
+    public void Play_Animator_Disassembly()
+    {
         if (isplay)
         {
             print("conditation if");
             anim.enabled = true;
-            anim.Play("MK2_Animated_disassembly_open");
+            anim.Play("Grenadedisassembely");
             anim.SetTrigger("x");
             StartCoroutine(ShowInformation());
         }
