@@ -22,6 +22,7 @@ TagManager:
   - Mk2_Hammer
   - Mk2_Spring
   - ground
+  - Laser
   layers:
   - Default
   - TransparentFX

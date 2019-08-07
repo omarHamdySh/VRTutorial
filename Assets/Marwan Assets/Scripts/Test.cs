@@ -6,15 +6,9 @@ public class Test : MonoBehaviour
 {
 
     bool omarFlag = false;
-    // Start is called before the first frame update
-    void Start()
+       
+    public void hidden()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        this.gameObject.SetActive(false);
     }
 }
