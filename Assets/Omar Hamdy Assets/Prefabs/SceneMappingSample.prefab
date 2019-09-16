@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5817771829023408028}
   - component: {fileID: 7280141131426740348}
-  - component: {fileID: 3972482395415051377}
   - component: {fileID: 3668403652365650545}
   m_Layer: 0
   m_Name: SceneMappingSample
@@ -45,23 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7487601ac143e146b28d9811a099b60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 0
---- !u!114 &3972482395415051377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2853851223601513327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d758fb2b5624644abd98cdbce69ae64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scenesMaps:
-  - sceneIndex: 0
-  - sceneIndex: 1
-  - sceneIndex: 2
+  sceneName: 4
 --- !u!114 &3668403652365650545
 MonoBehaviour:
   m_ObjectHideFlags: 0

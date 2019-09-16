@@ -1,22 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
+/// <summary>
+/// Just an enum that holds the exact name of the scene.
+/// </summary>
 public enum ScenesNames {
+    Intro,
     Home,
+    Test,
     Shooter,
+    Tutorial,
     Assembly
 }
 
-[System.Serializable]
-public class SceneMap {
-    [SerializeField]
-    public ScenesNames sceneIndex;
-}
-public class SceneMapping : MonoBehaviour
-{
-    [SerializeField]
-    List<SceneMap> scenesMaps = new List<SceneMap>();
 
-}
