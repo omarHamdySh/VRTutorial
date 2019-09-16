@@ -59,8 +59,8 @@ public class SnapOrder : MonoBehaviour
         thisRingSnapZone = GetComponentInChildren<VRTK_SnapDropZone>();
         if (thisRingSnapZone)
         {
-            thisRingSnapZone.ObjectEnteredSnapDropZone += snapOrderManager.OnSnap;
-            thisRingSnapZone.ObjectExitedSnapDropZone += snapOrderManager.OnUnSnap;
+            thisRingSnapZone.OnSnappingObject += snapOrderManager.OnSnap;
+            thisRingSnapZone.OnUnSnappingObject += snapOrderManager.OnUnSnap;
         }
 
         SwitchSnapAreasOff();                                               //Switch off all snap areas 

@@ -818,7 +818,7 @@ namespace VRTK
             {
                 ResetPermanentCloneColliders(currentSnappedObject.gameObject);
                 RemoveCurrentValidSnapObject(currentSnappedObject);
-                OnUnSnappingAnObject();                                     //Snap Order related Line of code;
+                //OnUnSnappingAnObject();                                     //Snap Order related Line of code;
             }
 
             isSnapped = false;
