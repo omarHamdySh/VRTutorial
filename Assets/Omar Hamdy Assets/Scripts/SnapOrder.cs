@@ -66,7 +66,6 @@ public class SnapOrder : MonoBehaviour
         SwitchSnapAreasOff();                                               //Switch off all snap areas 
         AssemblyBase = snapOrderManager.snapOrderObjects[0];                //Get the first snappable object in the list to be tha base.
         AssemblyBase.SwitchSnapAreasOn();                                   //Switch the snappable objects' base object's snap areas on.
-        SceneMapping._Instance.changeScene(ScenesNames.Home);
     }
 
     /// <summary>

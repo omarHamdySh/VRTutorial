@@ -179,7 +179,7 @@ namespace VRTK
         /// <summary>
         /// Emitted when Snap Order Object is snapped;
         /// </summary>
-        public virtual void OnSnapping()
+        public virtual void OnSnappingAnObject()
         {
             UnsnapObject();
             if (OnSnappingObject != null)
@@ -191,7 +191,7 @@ namespace VRTK
         /// <summary>
         /// Emitted when Snap Order Object is unsnapped;
         /// </summary>
-        public virtual void OnUnSnapping()  
+        public virtual void OnUnSnappingAnObject()  
         {
             UnsnapObject();
             if (OnUnSnappingObject != null)
@@ -752,7 +752,7 @@ namespace VRTK
                     interactableObjectCheck.ToggleSnapDropZone(this, true);
                 }
 
-                OnSnapping();                                               //Snap Order related Line of code;
+                OnSnappingAnObject();                                               //Snap Order related Line of code;
 
             }
 
@@ -818,7 +818,7 @@ namespace VRTK
             {
                 ResetPermanentCloneColliders(currentSnappedObject.gameObject);
                 RemoveCurrentValidSnapObject(currentSnappedObject);
-                OnUnSnapping();                                     //Snap Order related Line of code;
+                OnUnSnappingAnObject();                                     //Snap Order related Line of code;
             }
 
             isSnapped = false;
