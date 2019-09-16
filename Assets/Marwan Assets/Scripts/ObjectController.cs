@@ -17,7 +17,7 @@ public class ObjectController : MonoBehaviour
     }
     void RotateObject()
     {
-        print("maro el soghir l2 yetmal");
+        //print("maro el soghir l2 yetmal");
         if (touchAxis != new Vector2(500, 500))
         {
             ////// Rotation 

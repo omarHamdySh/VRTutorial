@@ -862,14 +862,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 2113685199}
   MySnapZone: {fileID: 2145963157}
@@ -1017,14 +1009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 2073526267}
   MySnapZone: {fileID: 27796836}
@@ -3567,14 +3551,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 2145963157}
   - {fileID: 1638528382}
@@ -6749,14 +6725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 1
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 946344080}
   MySnapZone: {fileID: 0}
@@ -7076,14 +7044,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 27796836}
   MySnapZone: {fileID: 1996215711}
@@ -8536,6 +8496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1254300668}
   - component: {fileID: 1254300667}
+  - component: {fileID: 1254300669}
   m_Layer: 9
   m_Name: MK2_Grenade Deassembled
   m_TagString: Untagged
@@ -8583,6 +8544,27 @@ Transform:
   m_Father: {fileID: 1602033088370753853}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254300669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254300666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1477f247fedfa314fa11fcfc10d6debd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapOrderObjects:
+  - {fileID: 816857879}
+  - {fileID: 2054072502}
+  - {fileID: 935877002}
+  - {fileID: 145938060}
+  - {fileID: 1857545605}
+  - {fileID: 603279054}
+  - {fileID: 118247097}
+  currentRingIndex: 0
 --- !u!1 &1258116566
 GameObject:
   m_ObjectHideFlags: 0
@@ -12902,14 +12884,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 1694200337}
   MySnapZone: {fileID: 2073526267}
@@ -13923,7 +13897,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects: []
   snapZones: []
   MySnapZone: {fileID: 0}
 --- !u!54 &2026657183
@@ -14308,14 +14281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapFlag: 0
-  snapOrderObjects:
-  - {fileID: 816857879}
-  - {fileID: 2054072502}
-  - {fileID: 935877002}
-  - {fileID: 145938060}
-  - {fileID: 1857545605}
-  - {fileID: 603279054}
-  - {fileID: 118247097}
   snapZones:
   - {fileID: 1694200337}
   - {fileID: 1996215711}
