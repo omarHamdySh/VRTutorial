@@ -56,12 +56,6 @@ public class SnapOrder : MonoBehaviour
         snapFlag = SnapOrderFlag.INTERACTABLE;                              //Inialize the snap flag with interactable;
         thisCollider = GetComponent<Collider>();                            //Get this object's collider
         snapOrderManager = GetComponentInParent<SnapOrderManager>();
-        thisRingSnapZone = GetComponentInChildren<VRTK_SnapDropZone>();
-        if (thisRingSnapZone)
-        {
-            thisRingSnapZone.OnSnappingObject += snapOrderManager.OnSnap;
-            thisRingSnapZone.OnUnSnappingObject += snapOrderManager.OnUnSnap;
-        }
 
         SwitchSnapAreasOff();                                               //Switch off all snap areas 
         AssemblyBase = snapOrderManager.snapOrderObjects[0];                //Get the first snappable object in the list to be tha base.

@@ -104,15 +104,6 @@ namespace VRTK
         /// Emitted when an interactable object is removed from a snapped drop zone.
         /// </summary>
         public event SnapDropZoneEventHandler ObjectUnsnappedFromDropZone;
-        
-        /// <summary>
-        /// Emitted when an snap order object is snapped.
-        /// </summary>
-        public event SnapDropZoneEventHandler OnSnappingObject;
-        /// <summary>
-        /// Emitted when an snap order object is unsnapped.
-        /// </summary>
-        public event SnapDropZoneEventHandler OnUnSnappingObject;
 
         protected GameObject previousPrefab;
         protected GameObject highlightContainer;
@@ -174,29 +165,6 @@ namespace VRTK
             if (ObjectUnsnappedFromDropZone != null)
             {
                 ObjectUnsnappedFromDropZone(this, e);
-            }
-        }
-        /// <summary>
-        /// Emitted when Snap Order Object is snapped;
-        /// </summary>
-        public virtual void OnSnappingAnObject()
-        {
-            UnsnapObject();
-            if (OnSnappingObject != null)
-            {
-                OnSnappingObject(this, new SnapDropZoneEventArgs());
-            }
-        }
-
-        /// <summary>
-        /// Emitted when Snap Order Object is unsnapped;
-        /// </summary>
-        public virtual void OnUnSnappingAnObject()  
-        {
-            UnsnapObject();
-            if (OnUnSnappingObject != null)
-            {
-                OnUnSnappingObject(this, new SnapDropZoneEventArgs());
             }
         }
 
@@ -751,8 +719,12 @@ namespace VRTK
 
                     interactableObjectCheck.ToggleSnapDropZone(this, true);
                 }
+                var snapOreder = interactableObjectCheck.gameObject.GetComponent<SnapOrder>();
 
-                OnSnappingAnObject();                                               //Snap Order related Line of code;
+                if (snapOreder != null)
+                {
+                    snapOreder.OnSnappingThis();
+                }
 
             }
 
@@ -818,7 +790,12 @@ namespace VRTK
             {
                 ResetPermanentCloneColliders(currentSnappedObject.gameObject);
                 RemoveCurrentValidSnapObject(currentSnappedObject);
-                //OnUnSnappingAnObject();                                     //Snap Order related Line of code;
+                var snapOreder = currentSnappedObject.GetComponent<SnapOrder>();
+
+                if (snapOreder != null)
+                {
+                    snapOreder.OnUnSnappingThis();
+                }
             }
 
             isSnapped = false;
